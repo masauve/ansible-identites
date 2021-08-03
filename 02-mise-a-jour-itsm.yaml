@@ -1,0 +1,10 @@
+---
+- name: Mise a jour ITSM
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Message
+      debug:
+        msg: Mise a jour ITSM
+

@@ -1,0 +1,10 @@
+---
+- name: Valider la configuration
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Message
+      debug:
+        msg: Valider la configuration
+

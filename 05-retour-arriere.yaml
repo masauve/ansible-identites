@@ -1,0 +1,10 @@
+---
+- name: Retour arriere
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Message
+      debug:
+        msg: Retour arriere
+

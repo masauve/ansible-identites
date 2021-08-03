@@ -1,0 +1,10 @@
+---
+- name: Verifications
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Message
+      debug:
+        msg: Verifications
+
